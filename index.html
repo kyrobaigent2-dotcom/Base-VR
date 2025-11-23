@@ -12,8 +12,21 @@
 
 <body>
     <a-scene>
+         <a-entity environment="preset: goaland; dressingAmount: 300;  skyColor:#FF8282; groundTexture:walkernoise;groundColor:Purple3;groundColor2:#ADD8E6" ></a-entity>
+            <!-- Museum floor starts here --> 
+             <a-cylinder id="floor" position="0 0 0" radius="7.5" color="purple" height="0.1"></a-cylinder> 
+             <!--Walls--> 
+                <a-box id="wall1" position="0 1.473 4.907" rotation="0 0 0" scale="10 3 0.2" color="green"></a-box>
+                <a-box id="wall2" position="0 1.473 -4.907" rotation="0 0 0" scale="10 3 0.2" color="green"></a-box>
+                <a-box id="wall3" position="5. 049 1.454 -0.008" rotation="0 -90 0" scale="10 3 0.2" color="green"></a-box>
+                <a-box id="wall4" position="-5.049 1.454 -0.008" rotation="0 -90 0" scale="10 3 0.2" color="green"></a-box>
+             <!--Roof-->  
+             <a-box id="triangle_front" segments-radial="3" position="0 3.874 4.907" rotation="-90 0 0" scale="5.774 0.2 1.8" color="pink"></a-cylinder>
+             <a-box id="triangle_front" segments-radial="3" position="0 3.874 4.907" rotation="-90 0 0" scale="5.774 0.2 1.8" color="pink"></a-cylinder>
+             <a-box id="roof_right" position="2.580 4.328 0" rotation="28.433 90 0" scale="10.931 0.20 6.110" color="silver"></a-box>
+             <a-box id="roof_right" position="2.580 4.328 0" rotation="28.433 90 0" scale="10.931 0.20 6.110" color="silver"></a-box>
 
-        <a-entity environment="preset: goaland; dressingAmount: 300;  skyColor:#FF8282; groundTexture:checkerboard;groundColor:blue;groundColor2:#ADD8E6" ></a-entity>
+        
       
       </a-scene>
       
